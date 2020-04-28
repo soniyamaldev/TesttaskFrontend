@@ -1,0 +1,28 @@
+{
+  "name": "requestallocatorefrontend",
+  "version": "0.1.0",
+  "private": false,
+  "devDependencies": {
+    "react-scripts": "1.1.4"
+  },
+  "dependencies": {
+    "axios": "0.18.1",
+    "bootstrap": "4.4.1",
+    "classnames": "2.2.6",
+    "lodash": "4.17.13",
+    "react": "16.8.0",
+    "react-bootstrap": "1.0.1",
+    "react-dom": "16.8.0",
+    "react-router": "4.3.1",
+    "react-router-dom": "4.3.1",
+    "reactstrap": "6.2.0"
+  },
+  "homepage": "./",
+  "proxy": "http://localhost:3030/",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
